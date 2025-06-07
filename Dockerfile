@@ -16,5 +16,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Run the command to start the Gunicorn server when the container launches
-ENV PORT 8080
+# Environment variables from the host (like PORT) will be passed to the container
 CMD ["gunicorn", "-w", "4", "--bind", "0.0.0.0:$PORT", "main:app"]
