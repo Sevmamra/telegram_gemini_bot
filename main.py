@@ -3,6 +3,7 @@ import os
 import asyncio
 from flask import Flask, request, jsonify
 import google.generativeai as genai
+from config import  TELEGRAM_BOT_TOKEN, LOG_CHANNEL, ADMIN_USER_ID, REQUIRED_CHANNEL_ID, LOG_CHANNEL_ID, GEMINI_API_KEY, WEBHOOK_URL
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application,
