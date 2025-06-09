@@ -13,16 +13,16 @@ GEMINI_API_KEY = environ.get("GEMINI_API_KEY", "AIzaSyAeqhTYD_goXKmVch8C_a5NCNnD
 # REQUIRED_CHANNEL_ID: Users must subscribe to this channel to use the bot.
 # Get your channel ID by forwarding any message from the channel to @JsonDumpBot or @RawDataBot.
 # It will be a negative number, e.g., -1001234567890. Set to None if no channel check is needed.
-REQUIRED_CHANNEL_ID = environ.get("REQUIRED_CHANNEL_ID", "-1002375692750")  # Example: -1001234567890
+REQUIRED_CHANNEL_ID = environ.get("REQUIRED_CHANNEL_ID", "-1002781903513")  # Example: -1001234567890
 
 # ADMIN_USER_ID: Your Telegram User ID to enable the broadcast command.
 # Get your user ID by messaging @userinfobot. It's a numeric ID, e.g., 1234567890.
 # Set to None if no admin broadcast is needed.
-ADMIN_USER_ID = environ.get("ADMIN_USER_ID", "7841292070")  # Example: 1234567890
+ADMIN_USER_ID = environ.get("ADMIN_USER_ID", "6567162029")  # Example: 1234567890
 
 # LOG_CHANNEL_ID: Private channel for bot activity logs. Bot must be an admin in this channel.
 # Get its ID like REQUIRED_CHANNEL_ID. Set to None if no logging to channel is needed.
-LOG_CHANNEL_ID = environ.get("LOG_CHANNEL_ID", "-1002344280987")  # Example: -1001234567891
+LOG_CHANNEL_ID = environ.get("LOG_CHANNEL_ID", "-1002781903513")  # Example: -1001234567891
 
 # --- Deployment Configuration ---
 # Default Bot Port for Flask server. This will be used by Gunicorn.
