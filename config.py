@@ -7,7 +7,7 @@ from os import getenv, environ
 # IMPORTANT: For deployment, use environment variables on your hosting platform!
 # These are primarily for local testing convenience if you don't use a .env file.
 TELEGRAM_BOT_TOKEN = environ.get("TELEGRAM_BOT_TOKEN", "")  # Replace with your actual bot token from BotFather
-GEMINI_API_KEY = environ.get("GEMINI_API_KEY", "AIzaSyBHT9Tv3pyB0xwOKJzGvv1MYi6bvpSwRtA")          # Replace with your actual Gemini API key from Google AI Studio
+GEMINI_API_KEY = environ.get("GEMINI_API_KEY", "AIzaSyAeqhTYD_goXKmVch8C_a5NCNnDl0PTKfQ")          # Replace with your actual Gemini API key from Google AI Studio
 
 # --- Bot and Channel IDs (Placeholders) ---
 # REQUIRED_CHANNEL_ID: Users must subscribe to this channel to use the bot.
